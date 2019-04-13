@@ -1,13 +1,14 @@
 ---
-order: 7
+order: 100
 title:
   zh-CN: 自定义标题
   en-US: Title
+debug: true
 ---
 
 ## zh-CN
 
-设置鼠标放在状态点上时显示的文字
+设置鼠标放在状态点上时显示的文字。
 
 ## en-US
 
@@ -22,11 +23,12 @@ ReactDOM.render(
       <a href="#" className="head-example" />
     </Badge>
   </div>,
-  mountNode);
+  mountNode
+);
 ````
 
 <style>
-.ant-badge:not(.ant-badge-status) {
+.ant-badge:not(.ant-badge-not-a-wrapper) {
   margin-right: 20px;
 }
 .head-example {
